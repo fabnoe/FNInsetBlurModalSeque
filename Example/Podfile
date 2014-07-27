@@ -1,0 +1,10 @@
+target 'FNInsetBlurModalSeque', :exclusive => true do
+  pod "FNInsetBlurModalSeque", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "FNInsetBlurModalSeque", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+end
